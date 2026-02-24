@@ -4,9 +4,9 @@ body {
 background-color:#f9f9f9;
 margin:0;
 padding:0;
-line: height 1.6;
+line-height: 1.6;
 }
-heder{
+header{
     background-color:#4CAF50;
     color:white;
     padding:20px;
@@ -29,7 +29,7 @@ nav a:hover{
 }
 
 main{
-    pdding:20px;
+    padding:20px;
     max-width:800px;
     margin:0 auto;
 }
@@ -54,7 +54,7 @@ p{
 
 a{
     color:#4CAF50;
-    text-decoratioon:none;
+    text-decoration:none;
 }
 
 a:hover {
