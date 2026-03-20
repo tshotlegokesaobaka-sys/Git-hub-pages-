@@ -160,7 +160,7 @@ span.price {
         <div class="row">
             <div class="col-75">
                 <div class="container">
-                    <form action="Acknowledgement.html" method="post">
+                    <form action="Acknowledgement.html" method="get">
 
                         <div class="row">
                             <div class="col-50">
@@ -245,7 +245,7 @@ span.price {
                 //Show cart count
                 var count = localStorage.getItem("cartCount") || 0;
                 document.querySelector(".price b") .innerText = count;
-                
+
                 // Show item from URL
                 var params = new URLSearchParams(window.locatio.search);
                 var item = params.get("item");
